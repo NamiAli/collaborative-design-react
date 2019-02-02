@@ -1,0 +1,178 @@
+
+
+.App {
+  text-align:center;
+   background: #fcfbfc;
+}
+
+
+
+.container-drag {
+  text-align: center;
+ 
+}
+
+.wip {
+  position: absolute;
+  width: 60px;
+  height: 100vh;
+  left: 30px;
+  top:10;
+  background-color: #fcfbfc;
+  border-left: 1px dotted;
+}
+
+
+
+
+
+.task-header{
+  display:inline-block;
+  background-color: white;
+  width:100%;
+}
+
+.dropable {
+  position:absolute;
+  width: 250px;
+  height:100vh;
+  right:0;
+  top:10;
+  background-color: #fcfbfc;
+  border-left: 1px dotted;
+}
+
+.draggable {
+  width:50px;
+  height:50px;
+  background-color: yellow;
+  margin: 5px auto;
+  line-height: 3em;
+}
+
+
+.left-conatiner{
+  border:1px solid #ccc;
+  height:85vh;
+  overflow: auto;
+  display:flex;
+
+}
+
+.right-container {
+ 
+  height:85vh;
+
+}
+
+.paint-board {
+   height:530px;
+   background: #e8e7e8;
+   margin-top: 10px;
+   width: 95%;
+  
+}
+
+.tool-panel {
+  height:530px;
+  width:5%;
+  margin-top:10px;
+
+}
+
+
+
+.tool {
+   margin-left:-7px;
+   margin-bottom: 10px;
+   border:1px solid #ccc;
+   width:25px;
+   height:25px;
+   line-height:3px;
+   display:block;
+
+}
+
+.tool:hover {
+   border: 1px solid #f18aa7;
+}
+
+.start-img {
+  margin-top:2px;
+  width:15px;
+}
+
+.head-img {
+  width:15px;
+  margin-top:3px;
+
+}
+
+.share-img{
+  margin-top:2px;
+  width:13px;
+}
+
+.line-img {
+  width:15px;
+  margin-top:2px;
+}
+
+.properties {
+  padding-bottom: 50px;
+  background: #fffeff;
+  border:1px solid #ccc;
+}
+
+.properties > span {
+  color:red;
+}
+
+.tool:focus {
+  border: 1px solid #f18aa7;
+}
+
+.start {
+  width: 80px;
+  border-radius: 20px;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  font-size: 10px;
+  font-weight: bold;
+  
+}
+
+.start > img {
+  margin-bottom:3px;
+  margin-right:5px;
+  width:15px;
+  
+}
+
+.head, .share, .share2 {
+  width:80px;
+  background: #ffffff;
+  border:1px solid #ccc;
+  font-size: 12px;
+  padding:2px 0;
+
+}
+
+.head > img {
+  width:12px;
+  margin-bottom:4px;
+  margin-left:-2px;
+}
+
+.share > img {
+  width:10px;
+  margin-bottom:2px;
+  margin-right:5px;
+}
+
+.share2 > img {
+  width:10px;
+  margin-bottom:2px;
+  margin-right:5px;
+}
+
